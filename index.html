@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>한국진로진학연구원 - 학생들의 호기심이 입시의 전략이 되는 곳</title>
+  <meta name="description" content="한국진로진학연구원은 학생의 진심이 담긴 탐구 노력이 최고의 평가를 받을 수 있도록 돕습니다.">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="karifavicon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Sticky Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <img src="karifavicon.png" alt="한국진로진학연구원 로고" class="logo-img">
+        <span class="logo-text">한국진로진학연구원</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="메뉴 열기">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about" class="nav-link">회사소개</a></li>
+        <li><a href="#services" class="nav-link">탐구주제 생성기</a></li>
+        <li><a href="#community" class="nav-link">게시판</a></li>
+        <li class="nav-auth" id="navAuth">
+          <a href="login.html" class="nav-btn nav-btn-login">로그인</a>
+          <a href="signup.html" class="nav-btn nav-btn-signup">회원가입</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-image"></div>
+    <div class="hero-bg-pattern"></div>
+    <div class="hero-content">
+      <p class="hero-intro anim-item">학생들의 호기심이 입시의 전략이 되는 곳,</p>
+      <h1 class="hero-heading anim-item">
+        <span class="hero-highlight">한국진로진학연구원</span>이<br>
+        열어가는 새로운 교육의 길입니다
+      </h1>
+      <p class="hero-sub anim-item">
+        학생의 진심이 담긴 탐구 노력이 최고의 평가를 받을 수 있도록 돕습니다.
+      </p>
+      <div class="hero-tags anim-item">
+        <span class="tag">#호기심의 발견</span>
+        <span class="tag">#자기주도적 탐구</span>
+        <span class="tag">#AI 데이터 진학 설계</span>
+        <span class="tag">#학종 최적화 솔루션</span>
+      </div>
+      <div class="anim-item">
+        <a href="#services" class="cta-button">AI 탐구주제 생성하기</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- AI Service Selection -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="section-title">나만의 맞춤형 탐구주제 찾기</h2>
+      <p class="section-subtitle">학생의 학년과 수준에 맞는 탐구주제를 AI가 제안합니다.</p>
+      <div class="card-grid card-grid-3">
+        <!-- 중등부 카드 -->
+        <div class="service-card">
+          <span class="card-level">MIDDLE</span>
+          <h3 class="card-title">중등부 탐구 생성기</h3>
+          <p class="card-desc">
+            중학교 1, 2, 3학년 사용 가능.<br>
+            기초 역량과 흥미 위주의 주제 제안
+          </p>
+          <a href="#" class="card-button">시작하기</a>
+        </div>
+        <!-- 고등부 Basic -->
+        <div class="service-card">
+          <span class="card-level">HIGH - BASIC</span>
+          <h3 class="card-title">고등부 탐구 생성기<span class="card-badge">Basic</span></h3>
+          <p class="card-desc">
+            2022 개정 교육과정 반영.<br>
+            학생부 종합전형 대비 입문형 주제 제안
+          </p>
+          <a href="#" class="card-button">시작하기</a>
+        </div>
+        <!-- 고등부 Advanced -->
+        <div class="service-card card-advanced">
+          <span class="card-level">HIGH - ADVANCED</span>
+          <h3 class="card-title">고등부 심화 탐구 생성기<span class="card-badge badge-advanced">Advanced</span></h3>
+          <p class="card-desc">
+            교과 융합 및 학술 논문 기반.<br>
+            심층 연구 주제 및 세특 차별화 전략 제안
+          </p>
+          <a href="#" class="card-button">시작하기</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission & Vision -->
+  <section class="mission" id="about">
+    <div class="container">
+      <h2 class="section-title">Mission &amp; Vision</h2>
+      <p class="vision-statement">
+        "탐구의 즐거움이 입시의 성공으로 이어지는<br>
+        선순환 교육 생태계 구축"
+      </p>
+      <div class="pillar-grid">
+        <div class="pillar-card">
+          <div class="pillar-number">01</div>
+          <h3 class="pillar-title">Discovery<span>발견</span></h3>
+          <p class="pillar-desc">학생의 사소한 질문에서 특별한 탐구 역량을 찾아냅니다.</p>
+        </div>
+        <div class="pillar-card">
+          <div class="pillar-number">02</div>
+          <h3 class="pillar-title">Innovation<span>혁신</span></h3>
+          <p class="pillar-desc">탐구주제생성기를 통해 누구나 수준 높은 연구 활동에 접근할 수 있도록 돕습니다.</p>
+        </div>
+        <div class="pillar-card">
+          <div class="pillar-number">03</div>
+          <h3 class="pillar-title">Achievement<span>성취</span></h3>
+          <p class="pillar-desc">진정성 있는 학생부 기록을 통해 꿈꾸는 대학으로의 문을 넓힙니다.</p>
+        </div>
+      </div>
+      <p class="mission-bottom">대한민국 학생부종합전형의 새로운 기준, 한국진로진학연구원</p>
+    </div>
+  </section>
+
+  <!-- Community & Board -->
+  <section class="community" id="community">
+    <div class="container">
+      <h2 class="section-title">함께 만드는 연구원</h2>
+      <div class="community-layout">
+        <!-- 게시판 리스트 -->
+        <div class="board-list">
+          <h3 class="board-heading">체험사례</h3>
+          <ul class="board-items" id="boardItems">
+          </ul>
+          <p class="board-empty" id="boardEmpty">등록된 체험사례가 없습니다.</p>
+        </div>
+        <!-- 체험 신청 및 상담 폼 -->
+        <div class="board-form-wrapper">
+          <h3 class="board-heading">체험 신청 및 컨설팅 상담신청</h3>
+          <form class="board-form" id="boardForm">
+            <div class="form-group">
+              <label for="userName">성명</label>
+              <input type="text" id="userName" name="userName" placeholder="성명을 입력하세요" required>
+            </div>
+            <div class="form-group">
+              <label for="userRegion">지역</label>
+              <input type="text" id="userRegion" name="userRegion" placeholder="예 : 충청남도 천안시" required>
+            </div>
+            <div class="form-group">
+              <label>구분</label>
+              <div class="radio-group">
+                <label class="radio-label">
+                  <input type="radio" name="userType" value="student" required>
+                  <span>학생</span>
+                </label>
+                <label class="radio-label">
+                  <input type="radio" name="userType" value="parent">
+                  <span>학부모</span>
+                </label>
+                <label class="radio-label">
+                  <input type="radio" name="userType" value="teacher">
+                  <span>교사</span>
+                </label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>신청 유형</label>
+              <div class="radio-group">
+                <label class="radio-label">
+                  <input type="radio" name="requestType" value="experience" required>
+                  <span>콘텐츠 체험</span>
+                </label>
+                <label class="radio-label">
+                  <input type="radio" name="requestType" value="consulting">
+                  <span>상담</span>
+                </label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="userPhone">전화번호</label>
+              <input type="tel" id="userPhone" name="userPhone" placeholder="예 : 010-1234-5678" required>
+            </div>
+            <div class="form-group">
+              <label for="userMessage">내용(단체 및 학원 회원가입은 아래 자세하게 작성해주세요)</label>
+              <textarea id="userMessage" name="userMessage" rows="4" placeholder="학교명을 작성해주시고 내용을 자세히 작성해주시면 담당컨설턴트가 연락을 드리겠습니다." required></textarea>
+            </div>
+            <button type="submit" class="form-submit">신청하기</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <span class="logo-text">한국진로진학연구원</span>
+        </div>
+        <p class="footer-desc">
+          교육의 정보 격차를 해소하고 학생 스스로 탐구의 주체가 되는 과정을 지원합니다.
+        </p>
+        <a href="admin.html" class="footer-admin-btn">관리자 페이지</a>
+        <p class="footer-copy">&copy; 2026 한국진로진학연구원. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="auth.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -286,7 +286,7 @@ img {
   font-size: clamp(20px, 2.8vw, 28px);
   font-weight: 600;
   color: var(--text-on-dark);
-  opacity: 0.9;
+  opacity: 0.95;
   margin-bottom: 14px;
   letter-spacing: -0.5px;
   line-height: 1.4;
@@ -312,7 +312,7 @@ img {
   color: var(--text-on-dark);
   margin-bottom: 32px;
   font-weight: 400;
-  opacity: 0.8;
+  opacity: 0.92;
   max-width: 520px;
 }
 
@@ -692,7 +692,7 @@ img {
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 1.5px;
-  color: var(--bg-primary);
+  color: #4b5563;
   margin-bottom: 16px;
 }
 

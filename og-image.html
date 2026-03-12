@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  width: 1200px;
+  height: 630px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(160deg, #4A6F8F 0%, #3A5A73 50%, #2E4A5F 100%);
+  font-family: 'Pretendard', 'Segoe UI', sans-serif;
+  overflow: hidden;
+  position: relative;
+}
+.deco1 {
+  position: absolute;
+  top: -80px; right: -60px;
+  width: 400px; height: 400px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(246,220,85,0.06) 0%, transparent 70%);
+}
+.deco2 {
+  position: absolute;
+  bottom: -60px; left: -40px;
+  width: 300px; height: 300px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(246,220,85,0.04) 0%, transparent 70%);
+}
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+.line {
+  width: 180px;
+  height: 3px;
+  border-radius: 2px;
+  background: #F6DC55;
+  opacity: 0.5;
+  margin-bottom: 28px;
+}
+.intro {
+  font-size: 28px;
+  font-weight: 600;
+  color: #e8eef3;
+  opacity: 0.9;
+  margin-bottom: 18px;
+}
+.title {
+  font-size: 60px;
+  font-weight: 800;
+  color: #F6DC55;
+  letter-spacing: -2px;
+  margin-bottom: 10px;
+}
+.subtitle {
+  font-size: 34px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.desc {
+  font-size: 21px;
+  font-weight: 400;
+  color: #e8eef3;
+  opacity: 0.7;
+  margin-bottom: 28px;
+}
+.line-bottom {
+  width: 180px;
+  height: 3px;
+  border-radius: 2px;
+  background: #F6DC55;
+  opacity: 0.5;
+}
+</style>
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="deco1"></div>
+  <div class="deco2"></div>
+  <div class="content">
+    <div class="line"></div>
+    <p class="intro">학생들의 호기심이 입시의 전략이 되는 곳,</p>
+    <h1 class="title">한국진로진학연구원</h1>
+    <p class="subtitle">열어가는 새로운 교육의 길입니다</p>
+    <p class="desc">학생의 진심이 담긴 탐구 노력이 최고의 평가를 받을 수 있도록 돕습니다.</p>
+    <div class="line-bottom"></div>
+  </div>
+</body>
+</html>

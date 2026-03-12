@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A6F8F"/>
+      <stop offset="50%" style="stop-color:#3A5A73"/>
+      <stop offset="100%" style="stop-color:#2E4A5F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Subtle decorative circles -->
+  <circle cx="1000" cy="100" r="200" fill="rgba(246,220,85,0.04)"/>
+  <circle cx="200" cy="500" r="150" fill="rgba(246,220,85,0.03)"/>
+  <!-- Top line accent -->
+  <rect x="510" y="160" width="180" height="3" rx="2" fill="#F6DC55" opacity="0.6"/>
+  <!-- Intro text -->
+  <text x="600" y="220" text-anchor="middle" font-family="'Pretendard','Segoe UI',sans-serif" font-size="26" font-weight="600" fill="#e8eef3" opacity="0.9">학생들의 호기심이 입시의 전략이 되는 곳,</text>
+  <!-- Main title -->
+  <text x="600" y="310" text-anchor="middle" font-family="'Pretendard','Segoe UI',sans-serif" font-size="56" font-weight="800" fill="#F6DC55" letter-spacing="-1.5">한국진로진학연구원</text>
+  <!-- Sub title -->
+  <text x="600" y="380" text-anchor="middle" font-family="'Pretendard','Segoe UI',sans-serif" font-size="32" font-weight="700" fill="#ffffff">열어가는 새로운 교육의 길입니다</text>
+  <!-- Description -->
+  <text x="600" y="440" text-anchor="middle" font-family="'Pretendard','Segoe UI',sans-serif" font-size="20" font-weight="400" fill="#e8eef3" opacity="0.7">학생의 진심이 담긴 탐구 노력이 최고의 평가를 받을 수 있도록 돕습니다.</text>
+  <!-- Bottom line accent -->
+  <rect x="510" y="480" width="180" height="3" rx="2" fill="#F6DC55" opacity="0.6"/>
+</svg>

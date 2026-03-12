@@ -324,28 +324,70 @@ img {
   background: rgba(246, 220, 85, 0.2);
 }
 
-.cta-button {
-  display: inline-block;
-  padding: 16px 40px;
+/* Pill CTA Button */
+.cta-button-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cta-pill-text {
+  display: inline-flex;
+  align-items: center;
+  padding: 16px 28px;
   background: var(--point);
   color: var(--gray-900);
   font-size: 17px;
   font-weight: 700;
-  border-radius: 50px;
-  border: none;
-  cursor: pointer;
-  transition: transform var(--transition), box-shadow var(--transition), background var(--transition);
-  box-shadow: 0 4px 20px rgba(246, 220, 85, 0.3);
+  border-radius: 50px 0 0 50px;
+  transition: background 0.5s ease, color 0.5s ease;
 }
 
-.cta-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(246, 220, 85, 0.4);
-  background: var(--point-hover);
+.cta-pill-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: var(--point);
+  color: var(--gray-900);
+  position: relative;
+  overflow: hidden;
+  transition: background 0.5s ease, color 0.5s ease;
 }
 
-.cta-button:active {
-  transform: translateY(0);
+.cta-arrow {
+  position: absolute;
+  transition: transform 0.5s ease;
+}
+
+.cta-arrow-out {
+  transform: translateX(0);
+}
+
+.cta-arrow-in {
+  transform: translateX(-40px);
+}
+
+.cta-button-pill:hover .cta-pill-text {
+  background: var(--bg-darker);
+  color: var(--point);
+}
+
+.cta-button-pill:hover .cta-pill-icon {
+  background: var(--bg-darker);
+  color: var(--point);
+}
+
+.cta-button-pill:hover .cta-arrow-out {
+  transform: translateX(40px);
+}
+
+.cta-button-pill:hover .cta-arrow-in {
+  transform: translateX(0);
 }
 
 /* Scroll indicator */
@@ -1752,9 +1794,14 @@ img {
     padding: 5px 12px;
   }
 
-  .cta-button {
-    padding: 14px 32px;
+  .cta-pill-text {
+    padding: 14px 22px;
     font-size: 15px;
+  }
+
+  .cta-pill-icon {
+    width: 48px;
+    height: 48px;
   }
 
   .hero-scroll-indicator {
